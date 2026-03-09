@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS</title>
+</head>
+<body>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            background-color: blue;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .container div{
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+
+    <div class="container">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+       <div>4</div>
+       <div>5</div>
+    </div>
+    
+</body>
+</html>
