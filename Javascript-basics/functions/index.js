@@ -31,5 +31,16 @@ console.log(fn(3, 2));
 
 
 
+// synchronous function and asynchronous function
+function syncFunction() {
+    console.log("This is a synchronous function.");
+}
 
-typeof 'eme'
+function asyncFunction() {
+    setTimeout(() => {
+        console.log("This is an asynchronous function.");
+    }, 1000);   
+}
+
+syncFunction();
+asyncFunction();
