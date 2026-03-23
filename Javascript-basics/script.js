@@ -5,14 +5,14 @@ function greet() {
 }
 greet();
 
-function greetings()
-{let name = "Alice";  // Local variable(scope) or function scope
+function greetings(){
+    let name = "Alice";  // Local variable(scope) or function scope
     console.log("Hello, " + name);
 }
 greetings();
 
 if (true) {
-    age = 20; // Global variable(scope)
+    age = 20; // variable(scope)
     console.log("My age is " + age);
 }
 
