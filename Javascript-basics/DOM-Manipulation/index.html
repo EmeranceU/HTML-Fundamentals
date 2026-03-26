@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <p id ="demo"></p>
+    <!-- <p id ="demo"></p>
     <h1>First class</h1>
     <ul>
         <li>HTML</li>
@@ -18,19 +18,51 @@
     <ul>
         <li>Python</li>
         <li>Java</li>
-        <li>PHP</li>
-    </ul>
+        <li>PHP</li> -->
+    <!-- </ul> -->
+
+
+
+    <p>0</p>
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+    <p>6</p>
+
+    <img id="myImage" src="images/download2.jpg" width="130" height="200" alt="My Image">
+
     <script>
-    const myPara = document.getElementById("demo");
-    myPara.innerHTML = "hello world";
 
 
-    const Headings = document.getElementsByTagName("h1");
-    for (const heading of Headings){
-        heading.style.color = "red";
-    }
+       //const myPara = document.querySelectorAll("p");
+        //myPara[0]. innerHTML ="Zero";
+        //myPara[1].innerHTML ="One";
+        //myPara[2].innerHTML ="two";
+        //myPara[3].innerHTML ="three";
+
+        
+        for (let i = 0; i <myPara.length; i++){
+            const para = myPara[i];
+            para.innerHTML = i;  
+        }
+        const myImage = document.getElementById("myImage").src = "images/download.jpg";
     
-</script>
+
+
+
+
+
+    //const myPara = document.getElementById("demo");
+    //myPara.innerHTML = "hello world";
+
+
+    //const Headings = document.getElementsByTagName("h1");
+    //for (const heading of Headings){
+    //    heading.style.color = "red";
+    //}
+    </script>
     
 </body>
 </html>

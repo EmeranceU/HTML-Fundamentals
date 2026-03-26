@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type ="text" value=""placeholder="Enter your username" class="name" />
+        <button type="submit">Submit</button>
+    </form>
+    <!-- <button onclick="greet()">Greet</button> -->
+
+    <script>
+
+        const element = document.getElementsByClassName("name");
+            if (element[0].value === "") {
+                alert("Please enter your name");
+            return false;
+            }
+        function greet(){
+
+            //document.getElementById("btn").innerHTML = "Hello";
+
+           // const button = document.getElementsByTagName("button");
+           // return button[0].innerHTML = "Hello";
+
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>
